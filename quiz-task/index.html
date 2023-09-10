@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+    <div class="page-container">
+    <header>
+        <h1 class="title">Multiple Choice Quiz</h1>
+    </header>
+
+    <section class="quiz-container" >
+        <div class="quiz-instructions-container">
+            <h4 class="instruction-title" id="start-process" >Read the instructions carefully</h4>
+            <ul class="instruction-contianer">
+                <li>You only have 10 min to answer the questions.</li>
+                <li>This quiz consists of 10 mutiple choice questions.</li>
+                <li>You can retake the quiz at any time.</li>
+            </ul>
+        </div>
+
+
+
+            <!-- quizcontainer -->
+            <div class="quiz-inner-container">
+                <div class="timer-container">
+                Timer
+                </div>
+                <div class="question-container">
+
+                <div class="question">
+                </div>
+                <div class="answers">
+                    <div class="answer-container">
+                        <input type="radio" name="choice" id=${index} value="${option}" " >
+                        <label for=${index} class="choice-label">
+                        <button class="option-button">
+                        
+                        <b>A:</b>option</label>
+                        </button>
+
+                        </div>
+                        <div class="answer-container">
+                            <input type="radio" name="choice" id=${index} value="${option}" " >
+                            <label for=${index} class="choice-label">
+                            <button class="option-button">
+                            
+                            <b>A:</b>option</label>
+                            </button>
+    
+                            </div>
+
+                            <div class="answer-container">
+                                <input type="radio" name="choice" id=${index} value="${option}" " >
+                                <label for=${index} class="choice-label">
+                                <button class="option-button">
+                                
+                                <b>A:</b>option</label>
+                                </button>
+        
+                                </div>
+
+                                <div class="answer-container">
+                                    <input type="radio" name="choice" id=${index} value="${option}" " >
+                                    <label for=${index} class="choice-label">
+                                    <button class="option-button">
+                                    
+                                    <b>A:</b>option</label>
+                                    </button>
+            
+                                    </div>
+                   
+                    <div class="line"></div>
+                    <div class="navigation-container">
+                        <button class="btn-navigation" id="previous"> &lt; </button>
+                        <div class="navigation-numbers-container">
+                
+                            <div class="navigation-tab" value="${parseInt(question)}">
+                              <button class="option-button">   
+                           1 </button></div>
+
+                           <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         2 </button></div>
+
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         3 </button></div>
+
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         4 </button></div>
+                       
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         5 </button></div>
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         6 </button></div>
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         7 </button></div>
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         8 </button></div>
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         9 </button></div>
+                                                  
+                         <div class="navigation-tab" value="${parseInt(question)}">
+                            <button class="option-button">   
+                         10 </button></div>
+                        </div>
+                
+                        <button class="btn-navigation" id="next" >&gt;</button>
+                
+                    </div>
+                
+                
+
+                    
+
+                    
+                </div>
+                </div>
+                 
+
+        </div>
+            <!-- finishquizcontainer -->
+            <div class="finish-quiz-container">
+                
+            </div>
+
+
+
+        <button class="btn-start">START</button>
+
+</section>
+
+
+
+
+
+    </div>
+
+</div>
+
+<div class="finish-message-container"></div>
+
+<script src="./quiz.js"></script>
+</body>
+</html>
+
+
+
+
